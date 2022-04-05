@@ -1,0 +1,19 @@
+repositories:
+  src/gokart/rosdep:
+    type: git
+    url: https://github.com/mlab-upenn/gokart-rosdep.git
+    version: main
+  src/gokart/simulation:
+    type: git
+    url: https://github.com/mlab-upenn/gokart-simulation.git
+    version: main
+  src/external/autoware_auto_msgs:
+    type: git
+    url: https://gitlab.com/autowarefoundation/autoware.auto/autoware_auto_msgs.git
+    version: ea918bb077cc806619d5ffa9397c180b9cb907ca
+  src/external/hector_gazebo:
+    type: git
+    url: https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git
+    # version: foxy-devel
+    # fixed to a specific commit to avoid unexpected future BC
+    version: a915f01d2ecab3c84af2089ceaa571e42b1506a2
